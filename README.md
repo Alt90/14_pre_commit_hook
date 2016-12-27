@@ -16,3 +16,6 @@
     После клонирования рапазитария, перенесите файл pre_commit в дирректорию git
 
     cp pre-commit .git/hooks
+
+    chmod +x .git/hooks/pre-commit
+
