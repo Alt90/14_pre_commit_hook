@@ -1,0 +1,14 @@
+#!/bin/sh
+
+python test.py
+
+if [[ $? = 0 ]]
+then
+    echo "> Tests passed"
+else
+    echo "> Tests DID NOT pass"
+    exit 1
+fi
+
+echo "Ready to commit"
+exit 0
